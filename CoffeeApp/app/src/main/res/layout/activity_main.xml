@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newlifenetwork.coffeeapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/percoffee"
+        android:text="5$ per coffee"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Quantity"
+        android:layout_below="@+id/percoffee"
+        android:text="Quantity"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_below="@+id/Quantity"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:inputType="number"
+        android:text="0"
+        android:id="@+id/coffee"
+        />
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coffee"
+        android:layout_marginLeft="105dp"
+        android:textSize="25dp"
+        android:id="@+id/order"
+        android:text="order"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/order"
+        android:textSize="40dp"
+
+        android:id="@+id/Pricing"
+        android:gravity="center"
+        />
+
+
+</RelativeLayout>

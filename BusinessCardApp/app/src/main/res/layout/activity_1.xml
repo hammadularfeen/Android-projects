@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.newlifenetwork.businesscardapp.Activity1"
+    android:background="@color/black"
+    >
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/blue"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:text="A.B.C And Co"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_above="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="phone # 03001234567"
+        android:textSize="25sp"
+        android:background="@color/blue"
+        />
+    <TextView
+        android:id="@+id/b"
+        android:text="Email: abc@xyz.com"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/blue"
+        android:layout_marginBottom="2dp"
+        />
+
+</RelativeLayout>
